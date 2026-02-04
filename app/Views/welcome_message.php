@@ -10,7 +10,8 @@
           <div class="container opacity-50" >
             <h2 class="opacity-1">Academia Venezolana de Neurociencias  (AVNc) </h2>
             <p>	Estudiantes y profesionales con interés en la neurociencia</p>
-            <a href="#about" class="btn-get-started" style="background-color: #0466C8; border-top: #f1f1f1;">Ver Más</a>
+            <a href="#about" class="btn-get-started" style="background: #0353A4;
+background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">Ver Más</a>
           </div>
         </div><!-- End Carousel Item ffde59
 
@@ -63,7 +64,6 @@
 
           <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-             
               <h4><a href="" class="stretched-link">Ciencias Puras</a></h4>
               <p>Biología, Física, Química, Matemáticas</p>
             </div>
@@ -92,7 +92,8 @@
     </section><!-- /Featured Services Section -->
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section accent-background text-dark" style="background-color: #2E5077;">
+    <section id="call-to-action" class="call-to-action section accent-background text-dark" style="background: #0353A4;
+background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
