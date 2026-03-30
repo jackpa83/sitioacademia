@@ -2,7 +2,7 @@
     <div class="branding d-flex align-items-center">
         <div class="container position-relative d-flex align-items-center justify-content-end">
             <a href="<?php echo base_url('/');?>" class="logo d-flex align-items-center me-auto">
-                <img src="<?php echo base_url('assets/img/logo_oscuro.png')?>" alt="" >
+                <img src="<?php echo base_url('public/uploads/1774829855_054f0b60e6e9df6b3a97.png')?>" alt="" >
             </a>
         <nav id="navmenu" class="navmenu">
             <ul>
@@ -58,7 +58,8 @@
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-            <a class="cta-btn" href="index.html#appointment" style="background-color: #023E7D ;" data-bs-toggle="modal" data-bs-target="#exampleModal" >Ingresar</a>
+            <a class="cta-btn" href="index.html#appointment" style="background: #0353A4;
+background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);" data-bs-toggle="modal" data-bs-target="#exampleModal" >Ingresar</a>
         </div>
     </div>
 <!--ff914d-->
@@ -66,8 +67,9 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header" style="background-color: #023E7D ;">
-                            <h5 class="modal-title text-white" id="exampleModalLabel"  >Inicio de Sessión</h5>
+                    <div class="modal-header" style="background: #0353A4;
+                background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">
+                            <h5 class="modal-title text-white" id="exampleModalLabel">Inicio de Sessión</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                 <div class="modal-body">
@@ -83,7 +85,8 @@
                     </div>
                     <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="submit" class="btn text-white" style="background-color: #023E7D ;">Entrar</button>
+                            <button type="submit" class="btn text-white" style="background: #0353A4;
+                background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">Entrar</button>
                     </div>
                     </form>
         </div>

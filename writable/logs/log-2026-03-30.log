@@ -1,0 +1,1981 @@
+CRITICAL - 2026-03-30 00:11:01 --> ErrorException: fopen(http://localhost/academia/uploads/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+[Method: POST, Route: logo_upload]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 184.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/academia/uploads/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\academia\\system\\HTTP\\Files\\UploadedFile.php', 184)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(184): fopen('http://localhost/academia/uploads/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/academia/uploads/')
+ 4 APPPATH\Controllers\Logo.php(39): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/academia/uploads/', '1774829461_8bcfce124f24da6c4edd.png')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 00:11:57 --> ErrorException: fopen(http://localhost/academia/uploads/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+[Method: POST, Route: logo_upload]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 184.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/academia/uploads/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\academia\\system\\HTTP\\Files\\UploadedFile.php', 184)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(184): fopen('http://localhost/academia/uploads/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/academia/uploads/')
+ 4 APPPATH\Controllers\Logo.php(39): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/academia/uploads/', '1774829517_a1edcf7d157331a4db8d.jpeg')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-30 01:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-30 01:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-30 01:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-30 01:53:48 --> Error: Class "App\Controllers\LogoModel" not found
+[Method: POST, Route: logo_upload]
+in APPPATH\Controllers\Logo.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 01:55:27 --> Error: Class "App\Controllers\LogoModel" not found
+[Method: POST, Route: logo_upload]
+in APPPATH\Controllers\Logo.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-30 01:56:05 --> mysqli_sql_exception: Column 'title' cannot be null in C:\xampp\htdocs\academia\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\academia\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\academia\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\academia\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\academia\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\academia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\academia\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\academia\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\academia\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\academia\app\Controllers\Logo.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\academia\system\CodeIgniter.php(933): App\Controllers\Logo->process()
+#10 C:\xampp\htdocs\academia\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+#11 C:\xampp\htdocs\academia\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\academia\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\academia\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\academia\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2026-03-30 01:56:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'title' cannot be null
+[Method: POST, Route: logo_upload]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logos` (`title`, `filename`) VALUES (:title:, :filename:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Logo.php(42): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 01:56:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835765_1c2ea91dd5c9af99c2c1.png\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835765_1c2ea91dd5c9af99c2c1.png\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logos` (`title`, `filename`) VALUES (:title:, :filename:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Logo.php(42): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 01:56:05 --> [Caused by] mysqli_sql_exception: Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835765_1c2ea91dd5c9af99c2c1.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835765_1c2ea91dd5c9af99c2c1.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835765_1c2ea91dd5c9af99c2c1.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logos` (`title`, `filename`) VALUES (:title:, :filename:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Logo.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-30 01:56:36 --> mysqli_sql_exception: Column 'title' cannot be null in C:\xampp\htdocs\academia\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\academia\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\academia\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\academia\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\academia\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\academia\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\academia\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\academia\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\academia\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\academia\app\Controllers\Logo.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\academia\system\CodeIgniter.php(933): App\Controllers\Logo->process()
+#10 C:\xampp\htdocs\academia\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+#11 C:\xampp\htdocs\academia\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\academia\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\academia\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\academia\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2026-03-30 01:56:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'title' cannot be null
+[Method: POST, Route: logo_upload]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logos` (`title`, `filename`) VALUES (:title:, :filename:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Logo.php(43): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 01:56:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835796_d553a85462486cab1416.png\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835796_d553a85462486cab1416.png\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logos` (`title`, `filename`) VALUES (:title:, :filename:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Logo.php(43): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 01:56:36 --> [Caused by] mysqli_sql_exception: Column 'title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835796_d553a85462486cab1416.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835796_d553a85462486cab1416.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `logos` (`title`, `filename`) VALUES (NULL, \'1774835796_d553a85462486cab1416.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logos` (`title`, `filename`) VALUES (:title:, :filename:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Logo.php(43): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 01:59:35 --> ErrorException: Undefined variable $logos
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logos', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(49): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:00:04 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(49): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:00:15 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(49): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:00:50 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(49): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:01:24 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(49): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:02:53 --> Error: Call to undefined function App\Controllers\compat()
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:02:54 --> Error: Call to undefined function App\Controllers\compat()
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:03:57 --> ErrorException: Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(12): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:04:21 --> ErrorException: Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(12): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:05:16 --> Error: Call to undefined function App\Controllers\compat()
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:08:35 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(49): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:09:00 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(12): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:17:04 --> ErrorException: Undefined variable $logo
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(50): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:17:16 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 54.
+ 1 APPPATH\Views\logo.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:18:03 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(50): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:18:35 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(50): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:19:00 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(50): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:19:27 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(50): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:19:45 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(50): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:21:11 --> Error: Undefined constant "App\Controllers\data"
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:21:24 --> ErrorException: Undefined variable $data
+[Method: POST, Route: logo_upload]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(50): view('logo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:21:48 --> ErrorException: compact(): Undefined variable $1
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $1', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 APPPATH\Controllers\Logo.php(13): compact('data', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:22:07 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 54.
+ 1 APPPATH\Views\logo.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:24:15 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 54.
+ 1 APPPATH\Views\logo.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:24:44 --> ErrorException: compact(): Undefined variable $1
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $1', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 APPPATH\Controllers\Logo.php(13): compact('data', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:25:31 --> ErrorException: compact(): Undefined variable $1
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $1', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 APPPATH\Controllers\Logo.php(13): compact('data', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:25:53 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 54.
+ 1 APPPATH\Views\logo.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:28:21 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:28:37 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:29:04 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:33:08 --> ErrorException: Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 49.
+ 1 APPPATH\Views\logo.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:33:33 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:33:55 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:34:24 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:34:31 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:35:31 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:35:38 --> ErrorException: Undefined array key "filename"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:38:57 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 50.
+ 1 APPPATH\Views\logo.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:39:11 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:41:39 --> ErrorException: Undefined variable $id
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:41:56 --> ErrorException: Undefined variable $id
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:42:42 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:42:58 --> ParseError: syntax error, unexpected double-quote mark, expecting identifier or variable or "{" or "$"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 3 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:43:57 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 50.
+ 1 APPPATH\Views\logo.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:44:26 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:44:57 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:46:52 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:46:57 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:47:33 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:49:08 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:49:19 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:49:41 --> ErrorException: compact(): Undefined variable $My Page Title
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $My Page Title', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 18)
+ 2 APPPATH\Controllers\Logo.php(18): compact([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:50:08 --> ErrorException: compact(): Undefined variable $title
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $title', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 18)
+ 2 APPPATH\Controllers\Logo.php(18): compact([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:50:37 --> ErrorException: compact(): Undefined variable $hola
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $hola', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 18)
+ 2 APPPATH\Controllers\Logo.php(18): compact([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:50:54 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:51:43 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:51:56 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(15): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:52:23 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:52:57 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 3 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:53:06 --> ErrorException: Attempt to read property "title" on string
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on string', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:53:39 --> ErrorException: Undefined variable $title
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:53:50 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:54:33 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(15): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:56:18 --> ErrorException: Undefined variable $db
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 11.
+ 1 APPPATH\Controllers\Logo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:56:31 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:56:50 --> Error: Undefined constant "App\Controllers\db"
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:57:23 --> ErrorException: Undefined variable $model
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 11.
+ 1 APPPATH\Controllers\Logo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:57:43 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:58:20 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(18): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 02:59:49 --> ErrorException: Undefined variable $db
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 10.
+ 1 APPPATH\Controllers\Logo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:00:29 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(21): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:01:59 --> ErrorException: Undefined variable $mysqli
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 12.
+ 1 APPPATH\Controllers\Logo.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:03:13 --> ErrorException: compact(): Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 23)
+ 2 APPPATH\Controllers\Logo.php(23): compact('data')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:03:34 --> ErrorException: compact(): Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 24)
+ 2 APPPATH\Controllers\Logo.php(24): compact('data')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:05:32 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(24): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:05:47 --> ErrorException: Undefined variable $db
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 11.
+ 1 APPPATH\Controllers\Logo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:08:53 --> ErrorException: Undefined property: App\Controllers\Logo::$LogoModel
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 10.
+ 1 APPPATH\Controllers\Logo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Logo::$LogoModel', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:09:30 --> ErrorException: compact(): Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 11)
+ 2 APPPATH\Controllers\Logo.php(11): compact('data')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:12:44 --> ErrorException: compact(): Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 12)
+ 2 APPPATH\Controllers\Logo.php(12): compact('data')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:13:25 --> ErrorException: compact(): Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 APPPATH\Controllers\Logo.php(13): compact('data')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:15:01 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:15:13 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:16:17 --> ParseError: Unclosed '{' on line 50
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 101.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 3 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:16:46 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 56.
+ 1 APPPATH\Views\logo.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:16:53 --> ErrorException: Undefined array key "body"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 57.
+ 1 APPPATH\Views\logo.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "body"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:18:26 --> ParseError: Unclosed '{' on line 50
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 101.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 3 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:21:35 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:21:49 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:22:19 --> ErrorException: Undefined property: mysqli::$title
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$title', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:22:25 --> ErrorException: Undefined variable $title
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:23:10 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:23:55 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:28:38 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 50.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(15): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:29:22 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 50.
+ 1 APPPATH\Views\logo.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:30:05 --> ErrorException: Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 48.
+ 1 APPPATH\Views\logo.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:30:36 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 55.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 3 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:33:09 --> ErrorException: Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 49.
+ 1 APPPATH\Views\logo.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:33:59 --> ErrorException: Undefined variable $logos
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 49.
+ 1 APPPATH\Views\logo.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logos', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:34:12 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:34:46 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:35:27 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:36:01 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:36:10 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:36:20 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:36:38 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:36:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:36:58 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:37:42 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 3 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:37:48 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 53.
+ 1 APPPATH\Views\logo.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:39:30 --> ErrorException: Undefined array key 0
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 50.
+ 1 APPPATH\Views\logo.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:41:05 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:42:22 --> Error: Call to undefined function App\Controllers\orderBy()
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:42:46 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:43:19 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:43:20 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:43:21 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:43:35 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('Logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('Logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:43:36 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('Logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('Logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:43:47 --> ErrorException: compact(): Undefined variable $1
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $1', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 APPPATH\Controllers\Logo.php(13): compact('data', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:44:01 --> ErrorException: compact(): Undefined variable $1
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $1', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 APPPATH\Controllers\Logo.php(13): compact([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:44:14 --> Error: Undefined constant "App\Controllers\data"
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:44:35 --> ArgumentCountError: compact() expects at least 1 argument, 0 given
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 APPPATH\Controllers\Logo.php(13): compact()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:44:40 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 APPPATH\Controllers\Logo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:44:59 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 APPPATH\Controllers\Logo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:45:00 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 APPPATH\Controllers\Logo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:45:06 --> ErrorException: Array to string conversion
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 APPPATH\Controllers\Logo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:45:17 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:47:43 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:48:27 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:48:37 --> ErrorException: Undefined variable $array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:48:59 --> ErrorException: Undefined variable $array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 51.
+ 1 APPPATH\Views\logo.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:50:31 --> ErrorException: Undefined variable $logos
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 50.
+ 1 APPPATH\Views\logo.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logos', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:50:39 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:51:08 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 APPPATH\Views\logo.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(13): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:53:15 --> ErrorException: compact(): Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 13)
+ 2 APPPATH\Controllers\Logo.php(13): compact('data')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:53:38 --> ErrorException: compact(): Undefined variable $data
+[Method: GET, Route: logo]
+in APPPATH\Controllers\Logo.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 14)
+ 2 APPPATH\Controllers\Logo.php(14): compact('data')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:55:01 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 52.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 4 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:55:52 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 50.
+ 1 APPPATH\Views\logo.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 03:56:02 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: logo]
+in APPPATH\Views\logo.php on line 50.
+ 1 APPPATH\Views\logo.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\Logo.php(14): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-30 04:06:25 --> ErrorException: Undefined variable $model
+[Method: POST, Route: logo_upload]
+in APPPATH\Controllers\Logo.php on line 49.
+ 1 APPPATH\Controllers\Logo.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\Logo.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Logo->process()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logo))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

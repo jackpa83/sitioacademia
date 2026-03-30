@@ -11,27 +11,9 @@
             <h2 class="opacity-1">Academia Venezolana de Neurociencias  (AVNc) </h2>
             <p>	Estudiantes y profesionales con interés en la neurociencia</p>
             <a href="#about" class="btn-get-started" style="background: #0353A4;
-background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">Ver Más</a>
+                background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">Ver Más</a>
           </div>
-        </div><!-- End Carousel Item ffde59
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
-          <div class="container">
-            <h2>At vero eos et accusamus</h2>
-            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-            <a href="#about" class="btn-get-started">Read More</a>
-          </div>
-        </div> End Carousel Item 
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
-          <div class="container">
-            <h2>Temporibus autem quibusdam</h2>
-            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-            <a href="#about" class="btn-get-started">Read More</a>
-          </div>
-        </div><!-- End Carousel Item -->
+        </div>
 
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -62,7 +44,7 @@ background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 5
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200" style="boder_top:#023E7D;">
             <div class="service-item position-relative">
               <h4><a href="" class="stretched-link">Ciencias Puras</a></h4>
               <p>Biología, Física, Química, Matemáticas</p>
@@ -99,7 +81,7 @@ background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 5
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-10">
             <div class="text-center">
-              <h3>Bienvenidos a la Academia Venezolana de Neurociencias (AVNc)</h3>
+              <h3>Bienvenidos a la Academia Venezolana de Neurociencias (AVNc)</h3><br>
               <p>
       La Academia Venezolana de Neurociencias (AVNc) tiene sus orígenes en el año 2022, a partir de los esfuerzos entre el Dr. Raúl Echeverri y el Univ. Emmanuel González, quienes lograron reunir a un grupo de estudiantes y profesionales conforme a la intención de constituir un grupo de interés, que, a partir del estudio y comprensión del sistema nervioso, pudiesen desarrollar este campo, la neurociencia, en la República Bolivariana de Venezuela, a través de la educación, la investigación y producción científica, la asistencia técnica, la tecnología e innovación y, las relaciones interinstitucionales 
 
@@ -116,8 +98,8 @@ background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 5
     <section id="about" class="about section">
 
       <!-- Section Title -->
-      <div class="container section-title " data-aos="fade-up">
-        <h2>¿Quiénes somos?<br></h2>
+      <div class="container text-center " data-aos="fade-up">
+        <h2> <b> ¿Quiénes somos? </b><br><br></h2>
        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
       </div><!-- End Section Title -->
 
@@ -211,9 +193,9 @@ background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 5
     <section id="tabs" class="tabs section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pilares de la Academia Venezolana de Neurociencias (AVNc)</h2>
-        <p></p>
+      <div class="container  text-center" data-aos="fade-up">
+        <h2><b> Pilares de la Academia Venezolana de Neurociencias (AVNC) </b><br></h2>
+        <p><br></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -324,8 +306,8 @@ background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 5
     <section id="faq" class="faq section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Filosofía de la Academia Venezolana de Neurociencias (AVNc)</h2>
+      <div class="container text-center" data-aos="fade-up">
+        <h2><b>Filosofía de la Academia Venezolana de Neurociencias (AVNC)</b><br><br></h2>
         <br>
       </div><!-- End Section Title -->
 

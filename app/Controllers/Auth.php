@@ -28,16 +28,16 @@ class Auth extends BaseController {
                 return redirect()->to('/dashboard');
             } else {
                 $session->setFlashdata('msg', 'Contraseña incorrecta.');
-                return redirect()->to('/login');
+                return redirect()->to('/dashboard');
             }
         } else {
             $session->setFlashdata('msg', 'El email no existe.');
-            return redirect()->to('/login');
+            return redirect()->to('/');
         }
     }
 
     public function logout() {
         session()->destroy();
-        return redirect()->to('/login');
+        return redirect()->to('/');
     }
 }

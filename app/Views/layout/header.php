@@ -24,4 +24,4 @@
       <!-- Main CSS File -->
       <link href="<?php echo base_url('assets/css/main.css');?>" rel="stylesheet">
 </head>
-<body class="index-page bg-black" style="background_color="">
+<body class="index-page">

@@ -1,4 +1,4 @@
- <footer id="footer" class="footer light-background text-white" style="background: #0353A4;
+ <footer id="footer" class="footer light-background text-white " style="background: #0353A4;
 background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">
 
     <div class="container footer-top text-white">
