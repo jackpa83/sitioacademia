@@ -11,15 +11,15 @@
                     <ul>
                         <li><a href="<?php echo base_url('logo');?>">Logo Menu</a></li>  
                         <li><a href="<?php echo base_url('banner');?>">Banner Principal</a></li>
-                        <li><a href="#">Neurociencia y Salud Pública</a></li>
+                        <li><a href="<?php echo base_url('logo_q');?>">Logo Quienes Somos </a></li>
                         <li><a href="#">Neurociencia y Tecnología</a></li>
                         <li><a href="#">Formaciones Internas</a></li>
                     </ul>
                 </li>
     <!----------------------------------------------------------------------------------------------------------------->            
-                <li class="dropdown"><a href="#"><span>Tecnología e Innovación</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <li class="dropdown"><a href="#"><span>Junta Directiva <span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="#">Inteligencia artificial</a></li>
+                        <li><a href="<?php echo base_url('jdirectiva');?>">Junta Directiva</a></li>
                         <li><a href="starter-page.html">Modelos 3D-AR</a></li>
                         <li><a href="#">Robótica</a></li>
                     <ul>

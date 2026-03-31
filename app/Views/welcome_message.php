@@ -6,7 +6,10 @@
       <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
         <div class="carousel-item active">
-          <img src="<?php echo base_url(' assets/img/hero-carousel/img-n1.jpeg');?>" alt="">
+            <?php foreach ($datos->getResultArray() as $rows) {?>            
+            <img src="<?php echo base_url('public/uploads/'.$rows['filename']);?>"alt="">
+            <?php }?> 
+       
           <div class="container opacity-50" >
             <h2 class="opacity-1">Academia Venezolana de Neurociencias  (AVNc) </h2>
             <p>	Estudiantes y profesionales con interés en la neurociencia</p>
@@ -107,7 +110,9 @@ background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 5
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/logo_oscuro.png" class="img-fluid align-items-center" alt="" width="400">
+            <?php foreach ($data->getResultArray() as $row) {?>            
+            <img src="<?php echo base_url('public/uploads/'.$row['filename']);?>" class="img-fluid align-items-center" alt="" width="400">
+            <?php }?> 
             <a href="#"></a>
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">

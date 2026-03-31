@@ -2,7 +2,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use App\Models\LogoModel;
+use App\Models\BannerModel;
 
 class BannerController extends Controller
 {
@@ -10,16 +10,14 @@ class BannerController extends Controller
         //$model = new LogoModel();
         //$data['logos'] = $model->findAll();
         $db = db_connect();
-        $data =$db->query('SELECT * FROM logos');
+        $data =$db->query('SELECT * FROM banner');
         return view('/layout/header').view('/layout/menu_edicion').view('Banner',compact('data')).view('/layout/footer');
 
     }
 
     public function process()
     {
- $model = new LogoModel();
-        
-        // 1. Set Validation Rules
+ $model = new BannerModel();
         $validationRules = [
             'userfile' => [
                 'label' => 'Image File',
@@ -31,27 +29,22 @@ class BannerController extends Controller
                 ],
             ],
         ];
-
         if (! $this->validate($validationRules)) {
             return view('logo', ['errors' => $this->validator->getErrors()]);
         }
-
-        // 2. Get the file from the request
         $img = $this->request->getFile('userfile');
-
         if (! $img->hasMoved()) {
             // 3. Move the file to a permanent location
             // WRITEPATH . 'uploads' maps to /writable/uploads/
             $newName = $img->getRandomName();
             //$img->move(WRITEPATH . 'uploads', $newName);
             $img->move('public/uploads', $newName);
-            //return "Imagen Cargada con Exito!" . base_url('uploads');
             $model->save([
                 'title'    => $this->request->getPost('title'),
                 'filename' => $newName
             ]);
             if($model){
-                return redirect()->to(base_url('logo'));
+                return redirect()->to(base_url('banner'));
             }
              
         }

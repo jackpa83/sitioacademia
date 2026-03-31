@@ -1,0 +1,554 @@
+DEBUG - 2026-03-31 00:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-31 02:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-31 03:05:36 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\BannerQnsController.php(27): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BannerQnsController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BannerQnsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:07:33 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\BannerQnsController.php(27): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BannerQnsController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BannerQnsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:10:08 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\BannerQnsController.php(27): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BannerQnsController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BannerQnsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:10:37 --> ErrorException: Undefined variable $model
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 20.
+ 1 APPPATH\Controllers\JDirectivaController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\JDirectivaController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:12:30 --> ErrorException: Undefined variable $model
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 33.
+ 1 APPPATH\Controllers\JDirectivaController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\htdocs\\academia\\app\\Controllers\\JDirectivaController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:26:36 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(30): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:28:08 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(30): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:28:36 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(30): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:32:27 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:32:55 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:34:02 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:34:29 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:35:23 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:36:55 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:39:06 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:39:35 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:40:27 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:41:32 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:44:17 --> Error: Call to a member function hasMoved() on null
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:45:14 --> Error: Call to a member function hasMoved() on null
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:48:04 --> ParseError: Unmatched '}'
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\academia\\app\\Controllers\\JDirectivaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JDirectivaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JDirectivaController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\JDirectivaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:48:46 --> ErrorException: Undefined array key "id_ficha"
+[Method: GET, Route: jdirectiva]
+in APPPATH\Views\J_directiva.php on line 49.
+ 1 APPPATH\Views\J_directiva.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ficha"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(12): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:48:47 --> ErrorException: Undefined array key "id_ficha"
+[Method: GET, Route: jdirectiva]
+in APPPATH\Views\J_directiva.php on line 49.
+ 1 APPPATH\Views\J_directiva.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ficha"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(12): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 03:49:03 --> ErrorException: Undefined array key "id_ficha"
+[Method: GET, Route: jdirectiva]
+in APPPATH\Views\J_directiva.php on line 49.
+ 1 APPPATH\Views\J_directiva.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ficha"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(12): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:05:01 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:05:53 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:06:37 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:09:58 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:10:17 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:13:26 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:13:44 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:14:27 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:14:48 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\J_directiva.php on line 47.
+ 1 APPPATH\Views\J_directiva.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:15:38 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:16:48 --> ErrorException: Undefined variable $data
+[Method: POST, Route: jd_upload]
+in APPPATH\Views\logo.php on line 46.
+ 1 APPPATH\Views\logo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('logo', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(28): view('logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:17:21 --> Error: Call to a member function hasMoved() on string
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:18:34 --> Error: Call to a member function hasMoved() on null
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:19:09 --> Error: Call to a member function hasMoved() on string
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:19:24 --> Error: Call to a member function hasMoved() on null
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:20:54 --> Error: Call to a member function hasMoved() on null
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:25:50 --> Error: Call to a member function hasMoved() on null
+[Method: POST, Route: jd_upload]
+in APPPATH\Controllers\JDirectivaController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->process()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:31:47 --> ErrorException: Undefined array key "id_fichas"
+[Method: GET, Route: jdirectiva]
+in APPPATH\Views\J_directiva.php on line 49.
+ 1 APPPATH\Views\J_directiva.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_fichas"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(12): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-31 04:38:06 --> ErrorException: Undefined array key "nombre y Apellido"
+[Method: GET, Route: jdirectiva]
+in APPPATH\Views\J_directiva.php on line 50.
+ 1 APPPATH\Views\J_directiva.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre y Apellido"', 'C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\academia\\app\\Views\\J_directiva.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('J_directiva', [], true)
+ 5 APPPATH\Controllers\JDirectivaController.php(12): view('J_directiva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JDirectivaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JDirectivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

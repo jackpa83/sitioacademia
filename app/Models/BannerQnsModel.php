@@ -2,8 +2,8 @@
 
 use CodeIgniter\Model;
 
-class BannerModel extends Model {
-    protected $table = 'banner';
+class BannerQnsModel extends Model {
+    protected $table = 'l_somos';
     protected $primaryKey = 'id';
     protected $allowedFields = ['title', 'filename']; 
 }

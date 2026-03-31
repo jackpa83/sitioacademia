@@ -23,11 +23,12 @@
             <br>
                 <button type="button" class="btn text-white mt-auto p-2 bd-highlight" data-bs-toggle="modal" data-bs-target="#exampleModal" 
                             style="background: #0353A4;
-                                    background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);" >
+                            background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);" >
                             Cargar Banner
                 </button>
             <br>
         </div>
+        <h1>Logo Quienes Somos <small class="text-danger">Seccion Quienes Somos</small></h1>
         <hr>
         <div class="col-md-12">
             <br>
@@ -50,24 +51,21 @@
                 </tr>
             <?php }?>   
         </tbody>
-   
     </table>
         </div>
     </div>
     <br><br>    
 </div>
-
-
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header" style="background: #0353A4;
                             background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">
-                            <h5 class="modal-title text-white" id="exampleModalLabel">Cargar Banner</h5>
+                            <h5 class="modal-title text-white" id="exampleModalLabel">Cargar Logo</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                 <div class="modal-body">
-                    <form action="<?= base_url('banner_upload') ?>" method="post" enctype="multipart/form-data">
+                    <form action="<?= base_url('Qns_upload') ?>" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Titulo:</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" name="title" aria-describedby="emailHelp" placeholder="Titulo">
@@ -76,9 +74,7 @@
                         <label for="exampleInputEmail1">Imagen:</label>
                         <input type="file" class="form-control "name="userfile" />
                     </div>
-
                     <br><br>
-                  
                     </div>
                     <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
