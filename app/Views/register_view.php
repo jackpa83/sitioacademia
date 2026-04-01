@@ -19,15 +19,29 @@
 <div class="container">
     <br>
     <div class="row">
-        <div class="col-md-12  ">
+        <div class="col-md-3">
             <br>
                 <button type="button" class="btn text-white mt-auto p-2 bd-highlight" data-bs-toggle="modal" data-bs-target="#exampleModal" 
                             style="background: #0353A4;
                                     background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);" >
                             Crear Usuario
                 </button>
-            <br><br>
         </div>
+            <div class="col-md-4"></div>
+                <?php if (session()->getFlashdata('msg')) : ?>
+                    <div class="row col-md-5 d-flex align-items-end flex-column bd-highlight p-2 ">
+                        <script>
+                            Swal.fire({
+                            position: "top-end",
+                            icon: "success",
+                            title: "Usuario Creado con Exito",
+                            showConfirmButton: false,
+                            timer: 1500
+                            });
+                        </script>
+                    </div>
+                <?php endif; ?>        
+    </div>
         <hr>
         <div class="col-md-12">
             <br>
@@ -48,8 +62,8 @@
                     <td><?php echo $row['id'];?></td>
                     <td><?php echo $row['nombre'];?></td>
                     <td><?php echo $row['email'];?></td>
-                    <td><?php echo $row['key_niveles'];?></td>
-                    <td><?php echo $row['key_estatus'];?></td>
+                    <td><?php echo $row['niveles'];?></td>
+                    <td><?php echo $row['estatus'];?></td>
                     <td><?php echo $row['created_at'];?></td>
                 </tr>
             <?php }?>  
@@ -61,13 +75,7 @@
     <br><br>    
 </div>
 
-<?php if (session()->getFlashdata('msg')) : ?>
-    <div class="row col-md-3">
-        <div class="alert alert-success" role="alert">
-            <?= session()->getFlashdata('msg') ?>
-        </div>
-    </div>
-<?php endif; ?>
+
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">

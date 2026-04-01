@@ -23,5 +23,6 @@
       <link href="<?php echo base_url('assets/vendor/swiper/swiper-bundle.min.css');?>" rel="stylesheet">
       <!-- Main CSS File -->
       <link href="<?php echo base_url('assets/css/main.css');?>" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body class="index-page">

@@ -1,5 +1,19 @@
   <main class="main text-white">
+      <?php if (session()->getFlashdata('msg')) : ?>
+                <div class="row col-md-5 d-flex align-items-end flex-column bd-highlight p-2 " style=" position: relative; z-index: 10;">
 
+                     <script>
+                  Swal.fire({
+                  position: "top-end",
+                  icon: "warning",
+                  title: "Usuario o Contraseña Incorrecta",
+                  showConfirmButton: false,
+                  timer: 1500
+                  });
+        </script>
+                </div>
+            <?php endif; ?>
+       
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
