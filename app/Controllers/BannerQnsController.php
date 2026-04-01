@@ -6,6 +6,9 @@ use App\Models\BannerQnsModel;
 
 class BannerQnsController extends Controller{
     public function index(){
+        if (!session()->get('isLoggedIn')) {
+            return redirect()->to('/');
+        } 
         $db = db_connect();
         $data =$db->query('SELECT * FROM l_somos');
         return view('/layout/header').view('/layout/menu_edicion').view('L_quienes_somos',compact('data')).view('/layout/footer');

@@ -1,8 +1,9 @@
+<?php $session = session(); ?>
 <header id="header" class="header sticky-top">
     <div class="branding d-flex align-items-center">
-        <div class="container position-relative d-flex align-items-center justify-content-end">
+        <div class="container   position-relative d-flex align-items-center justify-content-end">
             <a href="<?php echo base_url('/');?>" class="logo d-flex align-items-center me-auto">
-                <img src="<?php echo base_url('public/uploads/1774829855_054f0b60e6e9df6b3a97.png')?>" alt="" >
+                <img src="<?php echo base_url('assets/img/logo_oscuro.png')?>" alt="" >
             </a>
         <nav id="navmenu" class="navmenu">
             <ul>
@@ -45,19 +46,22 @@
                         <li><a href="#">Editorial AVNc</a></li>
                     </ul>
                 </li>
-            
-                <li class="dropdown"><a href="#"><span>Gestiones</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                   
+                <li class="dropdown"><a href="#"><span>Configuración</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="#">2024</a></li>  
-                        <li><a href="#">2025</a></li>
+                        <li><a href="<?php echo base_url("user");?>">Usuarios</a></li>  
+                  
                     </ul>
                 </li>
+               
                 <li><a href="<?php echo base_url('directiva');?>">Junta Directiva</a></li>
-                <li><a href="#contact">Contáctanos</a></li>
-            </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                 <li><a href="<?php echo base_url('directiva');?>"> Bienvenido: <?= session()->get('nombre') ?></li>
+            
+           
         </nav>
-          
+           <a class="cta-btn" href="<?php echo base_url('logout');?>" style="background: #0353A4;
+            background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);
+            " >Salir</a>
         </div>
     </div>
 <!--ff914d-->

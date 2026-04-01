@@ -7,8 +7,9 @@ use App\Models\BannerModel;
 class BannerController extends Controller
 {
     public function index(){
-        //$model = new LogoModel();
-        //$data['logos'] = $model->findAll();
+    if (!session()->get('isLoggedIn')) {
+            return redirect()->to('/');
+        } 
         $db = db_connect();
         $data =$db->query('SELECT * FROM banner');
         return view('/layout/header').view('/layout/menu_edicion').view('Banner',compact('data')).view('/layout/footer');

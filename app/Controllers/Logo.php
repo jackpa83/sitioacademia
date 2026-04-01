@@ -4,11 +4,12 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\LogoModel;
 
-class Logo extends Controller
-{
+class Logo extends Controller{
+ 
     public function index(){
-        //$model = new LogoModel();
-        //$data['logos'] = $model->findAll();
+     if (!session()->get('isLoggedIn')) {
+            return redirect()->to('/');
+        } 
         $db = db_connect();
         $data =$db->query('SELECT * FROM logos');
         return view('/layout/header').view('/layout/menu_edicion').view('logo',compact('data')).view('/layout/footer');

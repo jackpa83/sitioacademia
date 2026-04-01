@@ -7,6 +7,9 @@ use App\Models\JDModel;
 class JDirectivaController extends Controller
 {
     public function index(){
+                if (!session()->get('isLoggedIn')) {
+            return redirect()->to('/');
+        } 
         $db = db_connect();
         $data =$db->query('SELECT * FROM fichas');
         return view('/layout/header').view('/layout/menu_edicion').view('J_directiva',compact('data')).view('/layout/footer');

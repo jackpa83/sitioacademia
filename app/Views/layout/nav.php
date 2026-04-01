@@ -1,3 +1,4 @@
+<?php $session = session(); ?>
 <header id="header" class="header sticky-top">
     <div class="branding d-flex align-items-center">
         <div class="container position-relative d-flex align-items-center justify-content-end">
@@ -59,7 +60,8 @@
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
             <a class="cta-btn" href="index.html#appointment" style="background: #0353A4;
-background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);" data-bs-toggle="modal" data-bs-target="#exampleModal" >Ingresar</a>
+            background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);
+            " data-bs-toggle="modal" data-bs-target="#exampleModal" >Ingresar</a>
         </div>
     </div>
 <!--ff914d-->
@@ -86,7 +88,7 @@ background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 5
                     <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                             <button type="submit" class="btn text-white" style="background: #0353A4;
-                background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">Entrar</button>
+                            background: linear-gradient(182deg,rgba(3, 83, 164, 1) 0%, rgba(2, 62, 125, 1) 53%, rgba(0, 18, 51, 1) 100%);">Entrar</button>
                     </div>
                     </form>
         </div>
